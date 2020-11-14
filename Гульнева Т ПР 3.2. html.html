@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<HEAD>
+<html>
+<head>
+<title>Untitled</title>
+<style type="text/css">
+ body{
+  background: no-repeat;
+  }
+</style>
+<script language="JavaScript">
+     function change_color(obj)
+     {
+        obj.value && (document.body.style.backgroundColor = obj.value);
+        }
+</script>
+<script language="JavaScript">
+  select.onchange = function(e){
+  var elem = e ? e.target : window.event.srcElement;
+  document.body.style.backgroundColor = elem.value;
+}
+   </script>
+ </head>
+<body>
+<form method="post" action="1.php" onsubmit="return false">
+<label> <input type="radio"  class="color" id="white" name="button" value="white" onclick='change_color(this)'>white</label>
+   <label>  <input type="radio" class="color" id="red" name="button" value="red" onclick='change_color(this)'>red</label>
+   <label> <input type="radio"  class="color" id="orange" name="button" value="orange" onclick='change_color(this)'>orange</label>
+    <label> <input type="radio"  class="color" id="yellow" name="button" value="yellow" onclick='change_color(this)'>yellow</label>
+    
+</form>
+  <div>
+ <form>
+  <select id="select">
+     <option value="">Выберите цвет</option>
+     <option value="white">white</option>
+     <option value="red">red</option>
+     <option value="yellow">yellow</option>
+     <option value="orange">orange</option>
+    </select>
+    </form>
+   </body> 
+<p><span style="vertical-align: inherit;">Онлайн занятия</span></p>
+</div>
+<div>
+<p>&nbsp;</p>
+</div>
+<div>
+<h2><span style="background-color: #ff99cc;"><span style="vertical-align: inherit;">Математика для детей от 3 до 7 лет</span></span></h2>
+</div>
+<div>
+<p>&nbsp;</p>
+</div>
+<div>
+<p><span style="color: #00ccff;"><span style="vertical-align: inherit;">Личный кабинет</span></span><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> / Мои занятия / </span></span><span style="color: #00ccff;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Расписание занятий</span></span></span></p>
+</div>
+<div>
+<img src="Анимация.gif" id="ars" /><br>
+<button id="anim">Aнимация</button>
+<script type="text/javascript">
+$(function() 
+    $('#anim').click(function(){
+         $('#ars').animate({ opacity: 0.25,
+                'margin-left': '50',
+                height: '200'});
+    });
+</script>
+</div>
+<div>
+<h2 style="text-align: center;"><em><span style="vertical-align: inherit;">Расписание занятий на 12-15 ноября 2020</span></em></h2>
+</div>
+<div>
+<p>&nbsp;</p>
+</div>
+<div>
+<p style="text-align: center;"><span style="background-color: #ffff00;"><strong><span style="vertical-align: inherit;">Расписание занятий по математике</span></strong></span></p>
+</div>
+<div>
+<table style="height: 162px; width: 627px; margin-left: auto; margin-right: auto;" border="1">
+<tbody>
+<tr style="height: 81px;">
+<td style="width: 143px; height: 81px;">
+<p><span style="vertical-align: inherit;">12.11.2020</span></p>
+</td>
+<td style="width: 161px; height: 81px;">
+<p><span style="vertical-align: inherit;">Четверг, 11.00 по мск</span></p>
+</td>
+<td style="width: 162px; height: 81px;">
+<p><span style="vertical-align: inherit;">Онлайн занятие &laquo;Цифры от 0-5&raquo;</span></p>
+<p>&nbsp;</p>
+</td>
+<td style="width: 160px; height: 81px;">
+<p><span style="vertical-align: inherit;">Продолжительность 35 минут</span></p>
+</td>
+</tr>
+<tr style="height: 81px;">
+<td style="width: 143px; height: 81px;">
+<p><span style="vertical-align: inherit;">15.11.2020</span></p>
+</td>
+<td style="width: 161px; height: 81px;">
+<p><span style="vertical-align: inherit;">Воскресенье, 10.00 по мск</span></p>
+</td>
+<td style="width: 162px; height: 81px;">
+<p><span style="vertical-align: inherit;">Онлайн занятие &laquo;Считалочка&raquo;</span></p>
+<p>&nbsp;</p>
+</td>
+<td style="width: 160px; height: 81px;">
+<p><span style="vertical-align: inherit;">Продолжительность 35 минут</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<p>&nbsp;</p>
+</div>
+<div>
+<p><span style="text-decoration: underline; color: #000080;"><em><strong><span style="vertical-align: inherit;">К онлайн занятию необходимо подготовить:</span></span></strong></em></span></p>
+</div>
+<div>
+<ol>
+<li><span style="vertical-align: inherit;">Ручка шариковая</span></li>
+<li><span style="vertical-align: inherit;">Цветные карандаши</span></li>
+<li><span style="vertical-align: inherit;">Тетрадь в крупную клетку</span></li>
+</ol>
+</div>
+<div>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/iqoFK_CvGmI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html >
